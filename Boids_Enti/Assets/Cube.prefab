@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2087713928323790337}
   - component: {fileID: 2623855453415552585}
   - component: {fileID: 5081661086254999290}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,5 +108,8 @@ MonoBehaviour:
   separationForce: {x: 0, y: 0, z: 0}
   cohesionForce: {x: 0, y: 0, z: 0}
   alignmentForce: {x: 0, y: 0, z: 0}
-  radius: 1
+  radius: 5
+  cubeLayer:
+    serializedVersion: 2
+    m_Bits: 512
   neightbours: []
